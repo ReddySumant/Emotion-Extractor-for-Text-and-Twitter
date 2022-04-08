@@ -157,10 +157,10 @@ def result2(request):
                     self.tweetText = []
 
                     
-                    consumerKey = 'z9OQ8uZHDGce5AEsZahKSarMH'
-                    consumerSecret = 'IvwzR3sLsg04wfFfYjPENWNHv5hYjeLiyrUl5SXn60ALz62zww'
-                    accessToken = '1214740888678584320-C5qOOcZacPsnVjNygkI3x6VKzgCCbq'
-                    accessTokenSecret = 'WoNHIvQpXv0IBvXx8H6KQOlWMmTaaEuMuB8HI9xnGfkjU'
+                    consumerKey = 'xxxxxxxxxxxxxxxxx'
+                    consumerSecret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+                    accessToken = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+                    accessTokenSecret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
                     auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
                     auth.set_access_token(accessToken, accessTokenSecret)
                     api = tweepy.API(auth)
